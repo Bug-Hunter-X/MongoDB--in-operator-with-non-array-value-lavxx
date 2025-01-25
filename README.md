@@ -1,0 +1,1 @@
+This example demonstrates an uncommon error in MongoDB queries involving the $in operator.  The $in operator expects an array of values.  If a non-array value is provided, the query will silently fail and return no results, making it difficult to debug.
